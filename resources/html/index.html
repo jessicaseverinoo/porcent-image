@@ -9,7 +9,7 @@
     <link rel="stylesheet"
           href="/css/frontend.css">
   </head>
-  <body>
+  <body class="pt-2 py-md-5">
     <div class="container">
       <h1>
         CSS Tricks
@@ -17,6 +17,28 @@
       <p>
         Trick de CSS para porcentagem de imagens utilizando padding.
       </p>
+
+      <code class="d-block">.img-porcent {</code>
+        <br>
+        <code class="pl-1 d-block">width: 100%;</code>
+        <code class="pl-1 d-block">height: 0;</code>
+        <code class="pl-1 d-block">padding-bottom: 56.25%; /* Image height / width * 100 */</code>
+        <code class="pl-1 d-block">position: relative;</code>
+        <br>
+        <code class="pl-1 d-block">& img {</code>
+          <br>
+          <code class="pl-2 d-block">width: 100%;</code>
+          <code class="pl-2 d-block">height: auto;</code>
+          <code class="pl-2 d-block">position: absolute;</code>
+        <code class="pl-1 d-block">}</code>
+      <code class="d-block">}</code>
+
+      <a href="https://twitter.com/IMAC2/status/1260907597458259968?s=20"
+         class="my-2 d-block"
+         rel="noopener"
+         target="_blank">
+        Link do post
+      </a>
       <div class="row">
         <div class="col-sm-6 col-md-4">
           <div class="mb-2 img-porcent">

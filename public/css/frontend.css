@@ -42549,6 +42549,7 @@ img:not([loading=lazy]) {
   padding-bottom: 56.25%;
   /* Image height / width * 100 */
   position: relative;
+  box-shadow: 0 0 10px 1px #f8f9fa;
 }
 .img-porcent img {
   height: auto;

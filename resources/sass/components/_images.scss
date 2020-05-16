@@ -48,11 +48,12 @@ img {
   height: 0;
   padding-bottom: 56.25%; /* Image height / width * 100 */
   position: relative;
+  box-shadow: 0 0 10px 1px $gray-100;
 
   & img {
 
     @extend .w-100;
     height: auto;
-    position: absolute
+    position: absolute;
   }
 }
